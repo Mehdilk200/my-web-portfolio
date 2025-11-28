@@ -11,7 +11,20 @@
 - 💧 Humidité, vent, pression, visibilité, indice UV  
 - 🖼️ Interface moderne avec effet **Glassmorphism**  
 - ⏳ Loader animé pendant le chargement des données  
-- ⚠️ Gestion des erreurs (ville introuvable, champs vides, etc.)  
+- ⚠️ Gestion des erreurs (ville introuvable, champs vides, etc.)
+
+
+---
+---
+Technologies utilisées :
+
+> HTML5
+
+> CSS3
+
+> JavaScript
+
+> WeatherAPI
 
 ---
 
@@ -26,16 +39,9 @@ weather-app/
 ├── js/
 │   └── app.js          # Logique JavaScript
 ├── assets/
-│   └── favicon.ico     # Icône du site
+│   └── favicon.ico
+├── netfly/
+│   └── functions/
+│       └── weather.js  #key_api
 └── README.md           # Documentation du projet
 
-
-Technologies utilisées :
-
-> HTML5
-
-> CSS3
-
-> JavaScript
-
-> WeatherAPI
