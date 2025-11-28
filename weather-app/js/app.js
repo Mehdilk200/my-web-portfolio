@@ -17,7 +17,7 @@ const cityInput = document.getElementById('cityInput');
             loader.style.display = 'block';
 
             try {
-                const response = await fetch(`/.netfly/functions/weather?city=${city}`);
+                const response = await fetch(`/.netfily/functions/weather?city=${city}`);
 
                 if (!response.ok) {
                     throw new Error('City not found');
