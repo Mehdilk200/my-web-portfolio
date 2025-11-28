@@ -1,4 +1,4 @@
-# Weather App
+# Weather App (veet)
 
 **Weather App** est une application web interactive permettant de consulter la météo en temps réel pour n’importe quelle ville dans le monde. L’application est développée avec **HTML, CSS et JavaScript** et utilise **WeatherAPI** pour récupérer les données météorologiques.
 
@@ -31,7 +31,7 @@ Technologies utilisées :
 ## Structure du projet
 
 ```plaintext
-weather-app/
+my-weather-app/
 │
 ├── index.html          # Page principale
 ├── css/
@@ -40,7 +40,7 @@ weather-app/
 │   └── app.js          # Logique JavaScript
 ├── assets/
 │   └── favicon.ico
-├── netfly/
+├── netlify/
 │   └── functions/
 │       └── weather.js  #key_api
 └── README.md           # Documentation du projet
