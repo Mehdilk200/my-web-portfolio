@@ -5,8 +5,6 @@ const cityInput = document.getElementById('cityInput');
         const weatherInfo = document.getElementById('weatherInfo');
         const placeholder = document.getElementById('placeholder');
 
-        const API_KEY = '5373b5616ac04ca49ef213218252611';
-
         async function searchWeather() {
             const city = cityInput.value.trim();
             
@@ -19,9 +17,7 @@ const cityInput = document.getElementById('cityInput');
             loader.style.display = 'block';
 
             try {
-                const response = await fetch(
-                    `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}&aqi=no`
-                );
+                const response = await fetch(`/.netfly/functions/weather?city=${city}`);
 
                 if (!response.ok) {
                     throw new Error('City not found');
