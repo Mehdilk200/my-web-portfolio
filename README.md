@@ -38,8 +38,8 @@ my-weather-app/
 │   └── style.css       # Styles CSS
 ├── js/
 │   └── app.js          # Logique JavaScript
-├── assets/
-│   └── favicon.ico
+├── asset/
+│   └── icon.svg
 ├── netlify/
 │   └── functions/
 │       └── weather.js  #key_api
